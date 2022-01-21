@@ -28,6 +28,7 @@ class CursoSerializer(serializers.ModelSerializer):
         model = Curso
         fields = (
             'id',
+            'titulo',
             'url',
             'criacao',
             'ativo'
